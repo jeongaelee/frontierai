@@ -18,7 +18,7 @@
 터미널에서 다음 명령어를 실행하여 리포지토리를 복제합니다:
 
 ```bash 
-git clone https://github.com/microsoft/OpenAIWorkshop.git 
+git clone https://github.com/jeongaelee/frontierai.git 
 ```
 
 ### 2. Microsoft Foundry에서 LLM 모델 배포
@@ -115,4 +115,5 @@ DATA_TENANT_ID="default"
 * [Hands-on Lab 0 – Setup](2_00_setup.md)
 * [Hands-on Lab 1 – MCP Server](2_01_mcp_uv.md)
 * [Hands-on Lab 2 – Backend](2_02_backend_uv.md)
+
 * [Hands-on Lab 3 – Frontend](2_03_frontend_react.md)
