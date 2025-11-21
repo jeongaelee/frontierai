@@ -1,6 +1,6 @@
 # Part 2: Microsoft AI Agentic Workshop
 
-> Note: 워크샵 시나리오 개요는 설정을 시작하기 전에 [여기](SCENARIO.md)에서 읽어보세요.
+> Note: 워크샵 시나리오 개요는 설정을 시작하기 전에 [여기](../SCENARIO.md)에서 읽어보세요.
 
 ## Step 2: MCP Server
 이 단계에서는 Microsoft AI Agentic Workshop을 위한 MCP (Model Control Protocol)를 설정합니다. 이를 위해 필요한 Python 종속 항목을 설치하고 MCP 서버를 실행합니다.
@@ -165,4 +165,5 @@ if __name__ == "__main__":
 * [Hands-on Lab 0 – Setup](2_00_setup.md)
 * [Hands-on Lab 1 – MCP Server](2_01_mcp_uv.md)
 * [Hands-on Lab 2 – Backend](2_02_backend_uv.md)
+
 * [Hands-on Lab 3 – Frontend](2_03_frontend_react.md)
