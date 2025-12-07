@@ -66,6 +66,12 @@ React frontend는 기본적으로 `http://localhost:7000`에 연결됩니다.
 - Chat 인터페이스로 AI 에이전트와 상호작용할 수 있어야 합니다.
 - 실시간 스트리밍 및 에이전트 프로세스 visibility가 작동해야 합니다.
 
+    <img src="media/03_frontend_react_chat.png" />
+
+- 에이전트와 채팅하고 실시간 토큰 스트리밍 및 내부 에이전트 동작(예: 도구 호출, 계획 단계)을 관찰하세요.
+  
+    <img src="media/03_frontend_magentic_steps.png" />
+
 ## 트러블슈팅
 - **포트 3000이 이미 사용 중인가요?** React 앱이 다른 포트를 사용하겠냐고 묻습니다. `Y`를 입력하여 수락하세요.
 - **npm install이 실패하나요?** npm 캐시를 지우고 다시 시도해 보세요: `npm cache clean --force`
