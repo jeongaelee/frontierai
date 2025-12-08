@@ -11,7 +11,7 @@
     - Azure 구독과 리소스
     - Github Mechanics (계정 생성, 리포지토리 복제 등)
   
-### 1. 터미널 열기 및 리포지토리 복제
+### 1. 리포지토리 및 .env 파일 위치 확인ㅁ
 
 Part 2에서 진행 할 AI 애플리케이션은, 이전 단계에서 Clone 한 `FrontierAI` 리포지토리의 mcp와 agentic_ai에서 구동됩니다.
 > Part 2의 Hands-on Lab에서는 2개의 .env 파일을 사용합니다.
