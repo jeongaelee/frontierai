@@ -1,9 +1,9 @@
 # Part 2: Microsoft AI Agentic Workshop
 
-> Note: 워크샵 시나리오 개요는 설정을 시작하기 전에 [여기](SCENARIO.md)에서 읽어보세요.
+> Note: 워크샵 시나리오 개요는 설정을 시작하기 전에 [여기](../SCENARIO.md)에서 읽어보세요.
 
 ## Step 2: MCP Server
-이 단계에서는 Microsoft AI Agentic Workshop을 위한 MCP (Model Control Protocol)를 설정합니다. 이를 위해 필요한 Python 종속 항목을 설치하고 MCP 서버를 실행합니다.
+이 단계에서는 Microsoft AI Agentic를 활용한 애플리케이션을 위한 MCP (Model Control Protocol)를 설정합니다. 이를 위해 필요한 Python 종속 항목을 설치하고 MCP 서버를 실행합니다.
 
 ## 사전준비사항
 - [Step 1: Workshop Setup](2_00_setup.md) 완료
@@ -79,7 +79,7 @@ mcp = FastMCP(
 
 3c: Write MCP Tools
 
-아래의 MCP 도구들을 `mcp_service.py` 파일에 추가하세요. 이 도구들은 고객 데이터와 상호작용하기 위한 엔드포인트를 정의합니다. "insert tool endpoint code here"라는 키워드를 찾아 다음 코드로 교체합니다:
+아래의 MCP 도구들을 `mcp_service.py` 파일에 추가하세요. 이 도구들은 고객 데이터와 상호작용하기 위한 엔드포인트를 정의합니다. "insert tool endpoint code here 1"라는 키워드를 찾아 다음 코드로 교체합니다:
 
 **Tool 1: List All Customers**
 ```python
@@ -89,6 +89,7 @@ async def get_all_customers() -> List[CustomerSummary]:
     return [CustomerSummary(**r) for r in data]
 ```
 
+"insert tool endpoint code here 2"라는 키워드를 찾아 다음 코드로 교체합니다:
 **Tool 2: Get Subscription Detail**
 
 ```python
