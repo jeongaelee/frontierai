@@ -13,13 +13,10 @@
   
 ### 1. 터미널 열기 및 리포지토리 복제
 
->  VS Code에서 새 터미널 창을 엽니다:
-
-터미널에서 다음 명령어를 실행하여 리포지토리를 복제합니다:
-
-```bash 
-git clone https://github.com/jeongaelee/frontierai.git 
-```
+Part 2에서 진행 할 AI 애플리케이션은, 이전 단계에서 Clone 한 `FrontierAI` 리포지토리의 mcp와 agentic_ai에서 구동됩니다.
+> Part 2의 Hands-on Lab에서는 2개의 .env 파일을 사용합니다.
+* ./mcp/.env.sample ==> MCP server를 위한 .env
+* ./agentic_ai/application/.env.sample ==> Agent application을 위한 .env
 
 ### 2. Microsoft Foundry에서 LLM 모델 배포
 
@@ -115,5 +112,4 @@ DATA_TENANT_ID="default"
 * [Hands-on Lab 0 – Setup](2_00_setup.md)
 * [Hands-on Lab 1 – MCP Server](2_01_mcp_uv.md)
 * [Hands-on Lab 2 – Backend](2_02_backend_uv.md)
-
 * [Hands-on Lab 3 – Frontend](2_03_frontend_react.md)
