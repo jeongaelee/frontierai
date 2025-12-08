@@ -58,7 +58,7 @@ git clone https://github.com/jeongaelee/frontierai.git
 * ./1_basic_agent/.env.sample ==> 1_basic-concept-with-msaf.ipynb을 위한 .env
 
 ### Part 2의 Hands-on Lab에서는 2개의 .env 파일을 사용합니다.
-* ./agentic_ai/agents/.env.sample ==> Agent application을 위한 .env
+* ./agentic_ai/application/.env.sample ==> Agent application을 위한 .env
 * ./mcp/.env.sample ==> MCP server를 위한 .env
 
 ## 실습 순서
