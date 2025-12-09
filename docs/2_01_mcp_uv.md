@@ -154,6 +154,10 @@ if __name__ == "__main__":
   
     <img src="media/01_mcp_localhost_err.png" />
 
+ - MCP 서버가 온라인 상태인지 확인하기 위한 샘플 curl 명령어:
+    ```bash
+    curl -sS -i -X POST "http://localhost:8000/mcp" -H "Accept: application/json, text/event-stream" -H 'Content-Type: application/json'  --data '{"jsonrpc":"2.0","id":"init-            1","method":"initialize", "params":{"protocolVersion":"2024-11-05","capabilities":{}, "clientInfo":{"name":"curl","version":"8"}}}'`
+    ```
 
 ## 다음 단계: Backend Server
 
@@ -169,5 +173,6 @@ if __name__ == "__main__":
 * [Hands-on Lab 1 – MCP Server](2_01_mcp_uv.md)
 * [Hands-on Lab 2 – Backend](2_02_backend_uv.md)
 * [Hands-on Lab 3 – Frontend](2_03_frontend_react.md)
+
 
 
