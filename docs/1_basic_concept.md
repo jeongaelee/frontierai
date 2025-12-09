@@ -107,10 +107,11 @@ Azure AI Foundry는 11월에 있었던 Microsoft Ignite에서 Microsoft로 브�
 ## 실습 순서
 
 ### Part 1
-* [Microsoft Agent Framework Basic Concept HoL](00_basic_concept.md)
+* [Microsoft Agent Framework Basic Concept HoL](1_basic_concept.md)
 
 ### Part 2
 * [Hands-on Lab 0 – Setup](2_00_setup.md)
 * [Hands-on Lab 1 – MCP Server](2_01_mcp_uv.md)
 * [Hands-on Lab 2 – Backend](2_02_backend_uv.md)
 * [Hands-on Lab 3 – Frontend](2_03_frontend.md)
+
