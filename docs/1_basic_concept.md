@@ -18,7 +18,7 @@ Azure AI Foundry는 11월에 있었던 Microsoft Ignite에서 Microsoft로 브�
 
     <img src="images/step1-03.png" width="600"/>
 
-4. 생성이 완료되면 default project로 이동하게 됩니다. Microsoft Foundry Project의 Endpoint와 Key 값을 볼 수 있습니다. 왼쪽 메뉴의 "Models + endpoints"를 클릭하여 모델 배포 작업을 해봅니다.
+4. 생성이 완료되면 "Go to Foundry portal"을 클릭하여 default project로 이동합니다. "Overview" 페이지에서는 Microsoft Foundry Project의 Endpoint와 Key 값을 볼 수 있습니다. 왼쪽 메뉴의 "Models + endpoints"를 클릭하여 모델 배포 작업을 해봅니다.
 
     <img src="images/step1-04.png" width="720"/>
 
@@ -114,4 +114,5 @@ Azure AI Foundry는 11월에 있었던 Microsoft Ignite에서 Microsoft로 브�
 * [Hands-on Lab 1 – MCP Server](2_01_mcp_uv.md)
 * [Hands-on Lab 2 – Backend](2_02_backend_uv.md)
 * [Hands-on Lab 3 – Frontend](2_03_frontend.md)
+
 
