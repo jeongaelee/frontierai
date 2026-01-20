@@ -22,7 +22,7 @@ Microsoft Agent Framework은 Azure AI Foundry에서 제공하는 에이전트 �
 
 * Azure 구독: Azure AI Foundry등의 Azure 리소스를 배포하게 됩니다. 권한이 있으신지 확인해주세요.
 * Visual Studio Code 설치: https://code.visualstudio.com/
-* Python 3.13 version 설치 (*일부 OS에서는 3.14 버전으로 Microsoft Agent Frameworkd이 설치되지 않는 경우가 있습니다.)
+* Python 3.13 version 설치 (*일부 OS에서는 3.14 버전으로 Microsoft Agent Framework이 설치되지 않는 경우가 있습니다.)
 * [Azure CLI](https://learn.microsoft.com/ko-kr/cli/azure/install-azure-cli-windows?view=azure-cli-latest&pivots=winget)를 Install 해주세요 (VS Code의 터미널에서 설치했을 경우 VS Code를 재구동 해주세요.)
 
     ```
@@ -77,4 +77,5 @@ git clone https://github.com/jeongaelee/frontierai.git
 * Part 1의 basic-concept-with-msaf.ipynb 코드는 [Agent Innovator Lab](https://github.com/Azure/agent-innovator-lab)에서 차용 되었습니다. Agent Innovator Lab 리포지토리는 마이크로소프트의 AI GBB 팀에서 운영하는 Repo로 Microsoft Azure 기반으로 AI 에이전트 개발을 학습할 수 있는 실습 중심의 자료를 제공하고 있습니다. 이 리포지토리는 RAG 구현, 에이전트 설계 패턴, 평가 및 최적화 기법을 포함한 다양한 모듈을 통해 개발자가 실제 환경에서 에이전트를 구축하고 개선하는 경험을 지원합니다.
 
 * Part 2의 [Microsoft AI Agentic Workshop](https://github.com/aseangps/OpenAIWorkshop)은 마이크로소프트에서 제공하는 repo로 OpenAI 기반 지능형 솔루션을 구축하기 위한 워크숍 자료와 코드를 제공하고 있습니다. 이 리포지토리를 통해 개발자는 Microsoft Agent Framework와 Azure OpenAI 서비스를 활용해 단일 에이전트부터 멀티에이전트 아키텍처까지 다양한 패턴을 실습할 수 있습니다.
+
 
