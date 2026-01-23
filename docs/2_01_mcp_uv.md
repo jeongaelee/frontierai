@@ -140,6 +140,16 @@ if __name__ == "__main__":
     
     <img src="media/01_mcp_fastmcp.jpg" />
 
+## FastMCP 오류
+    > pip install fastmcp를 하셔도 혹시 uv가 fastmcp를 못 찾는 경우, fastmcp가 설치된 환경과 현재 vs code에서 연결된 python환경과 다르기 때문입니다  
+    > 파이썬이 도는 경로를 찾아서 명시적으로 mcp_service.py를 실행시켜 주세요
+    
+    > python -c "import sys; print(sys.executable)"
+
+    ```
+    uv run --python "C:\Users\xxxxx\AppData\Local\Programs\Python\Python313\python.exe" mcp_service.py
+    ```
+ 
 ## 성공 기준
 
 - MCP 서버가 실행 중이며 요청을 받을 준비가 되어 있습니다.
@@ -173,6 +183,7 @@ if __name__ == "__main__":
 * [Hands-on Lab 1 – MCP Server](2_01_mcp_uv.md)
 * [Hands-on Lab 2 – Backend](2_02_backend_uv.md)
 * [Hands-on Lab 3 – Frontend](2_03_frontend_react.md)
+
 
 
 
